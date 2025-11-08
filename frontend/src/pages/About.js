@@ -6,13 +6,13 @@ function About() {
   const team = [
     {
       name: "Vamsi",
-      role: "Founder & Deployment",
+      role: "Founder & UI/UX Designer",
       img: "https://i.ibb.co/7x8nsjcg/Whats-App-Image-2025-11-08-at-16-25-47-bb01d7ab.jpg", 
     },
     
     {
       name: "Krishna Kanth",
-      role: "Frontend Developer & UI/UX Designer",
+      role: "Frontend Developer & Deployment",
       img: "https://i.ibb.co/993BpptW/download-1.jpg",
     },
     {
