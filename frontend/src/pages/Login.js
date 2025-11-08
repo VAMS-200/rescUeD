@@ -33,7 +33,7 @@ function Login({ setUser }) {
     setLoading(true);
 
     try {
-      const res = await axios.post("http://localhost:5001/api/auth/login", formData);
+      const res = await axios.post("https://rescued.onrender.com/api/auth/login", formData);
       if (res.data.success && res.data.user) {
         const user = res.data.user;
         localStorage.setItem("user", JSON.stringify(user));
