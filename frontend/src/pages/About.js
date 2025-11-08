@@ -6,23 +6,23 @@ function About() {
   const team = [
     {
       name: "Vamsi",
-      role: "Founder & UI/UX Designer",
+      role: "Founder & Deployment",
       img: "https://i.ibb.co/7x8nsjcg/Whats-App-Image-2025-11-08-at-16-25-47-bb01d7ab.jpg", 
     },
     
     {
       name: "Krishna Kanth",
-      role: "Frontend Developer",
+      role: "Frontend Developer & UI/UX Designer",
       img: "https://i.ibb.co/993BpptW/download-1.jpg",
     },
     {
       name: "Sai Lokesh",
-      role: "Team Lead & Backend Engineer ",
+      role: "Team Lead & Backend Engineer",
       img: "https://i.ibb.co/v4DZYxh4/Whats-App-Image-2025-11-08-at-17-10-02-4f546514.jpg",
     },
     {
       name: "Pranathi",
-      role: "Developer",
+      role: "Testing & Documentation",
       img: "https://i.ibb.co/sJyPKtn2/Whats-App-Image-2025-11-08-at-17-10-32-a0058774.jpg",
     },
   ];
