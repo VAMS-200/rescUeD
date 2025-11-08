@@ -17,7 +17,7 @@ function About() {
     },
     {
       name: "Sai Lokesh",
-      role: "Backend Engineer",
+      role: "Team Lead & Backend Engineer ",
       img: "https://i.ibb.co/v4DZYxh4/Whats-App-Image-2025-11-08-at-17-10-02-4f546514.jpg",
     },
     {
