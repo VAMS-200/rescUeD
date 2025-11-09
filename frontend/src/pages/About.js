@@ -6,7 +6,7 @@ function About() {
   const team = [
     {
       name: "Vamsi",
-      role: "Project Designer & UI Specialist",
+      role: "Project Designer & Database Administrator",
       img: "https://i.ibb.co/7x8nsjcg/Whats-App-Image-2025-11-08-at-16-25-47-bb01d7ab.jpg", 
     },
      {
