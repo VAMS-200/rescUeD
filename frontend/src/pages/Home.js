@@ -20,7 +20,7 @@ function Home() {
             Stuck on the Road? <br /> We’ve Got You Covered!
           </h1>
           <p className="text-gray-700 mb-6 leading-relaxed">
-            rescUeD connects you with nearby mechanics instantly when your vehicle breaks down.  
+            rescUeD connects you with nearby service man instantly when your vehicle breaks down.  
             Reliable, fast, and available 24/7 — wherever you are.
           </p>
           <div className="flex justify-center md:justify-start gap-4">
@@ -58,7 +58,7 @@ function Home() {
         <div className="grid md:grid-cols-3 gap-10">
           {[
             { title: "Request Help", desc: "Enter your location and vehicle issue.", icon: <MapPin className="w-10 h-10 mx-auto text-blue-600" /> },
-            { title: "Mechanic Arrives", desc: "Nearest verified mechanic accepts your request.", icon: <Wrench className="w-10 h-10 mx-auto text-blue-600" /> },
+            { title: "Service Man Arrives", desc: "Nearest verified service man accepts your request.", icon: <Wrench className="w-10 h-10 mx-auto text-blue-600" /> },
             { title: "Get Back on Road", desc: "Quick repairs done on-site so you can continue your journey.", icon: <Clock className="w-10 h-10 mx-auto text-blue-600" /> },
           ].map((item, idx) => (
             <motion.div
@@ -80,7 +80,7 @@ function Home() {
         <div className="grid md:grid-cols-3 gap-8">
           {[
             { icon: <Clock className="w-10 h-10 mx-auto" />, title: "Quick Response", desc: "Get help in minutes, not hours." },
-            { icon: <Shield className="w-10 h-10 mx-auto" />, title: "Verified Mechanics", desc: "We ensure safety and quality service every time." },
+            { icon: <Shield className="w-10 h-10 mx-auto" />, title: "Verified Service Man", desc: "We ensure safety and quality service every time." },
             { icon: <Wrench className="w-10 h-10 mx-auto" />, title: "Trusted Service", desc: "Thousands of happy customers across the city." },
           ].map((card, i) => (
             <motion.div
