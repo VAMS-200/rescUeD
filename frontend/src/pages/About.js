@@ -25,7 +25,7 @@ import { Shield, HeartHandshake, Clock, Wrench, Rocket, Handshake, Heart } from 
   //     role: "Quality Assurance & Documentation",
   //     img: "https://i.ibb.co/sJyPKtn2/Whats-App-Image-2025-11-08-at-17-10-32-a0058774.jpg",
   //   },
-  ];
+  // ];
 
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-blue-50 via-white to-blue-100">
