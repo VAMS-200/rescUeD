@@ -2,13 +2,13 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Shield, HeartHandshake, Clock, Wrench, Rocket, Handshake, Heart } from "lucide-react";
 
-function About() {
-  const team = [
-    {
-      name: "Vamsi",
-      role: "Full Stack Devloper",
-      img: "https://i.ibb.co/7x8nsjcg/Whats-App-Image-2025-11-08-at-16-25-47-bb01d7ab.jpg", 
-    }
+// function About() {
+//   const team = [
+//     {
+//       name: "Vamsi",
+//       role: "Full Stack Devloper",
+//       img: "https://i.ibb.co/7x8nsjcg/Whats-App-Image-2025-11-08-at-16-25-47-bb01d7ab.jpg", 
+//     },
   //    {
   //     name: "Sai Lokesh",
   //     role: "Team Lead & Backend Engineer",
@@ -154,37 +154,37 @@ function About() {
         </div>
       </section>
 
-      {/* ---------------- TEAM SECTION ---------------- */}
-      <section className="py-16 px-6 md:px-20 text-center bg-gradient-to-br from-blue-100 via-white to-blue-50">
-        <h2 className="text-3xl font-bold text-blue-700 mb-10">Meet Our Team</h2>
+      // {/* ---------------- TEAM SECTION ---------------- */}
+      // <section className="py-16 px-6 md:px-20 text-center bg-gradient-to-br from-blue-100 via-white to-blue-50">
+      //   <h2 className="text-3xl font-bold text-blue-700 mb-10">Meet Our Team</h2>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8">
-          {team.map((member, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.2 }}
-              transition={{ duration: 0.6, delay: index * 0.2 }}
-              whileHover={{ y: -5, scale: 1.03 }}
-              className="bg-white rounded-xl shadow-lg p-6 hover:shadow-2xl transition"
-            >
-              <img
-                src={member.img}
-                alt={member.name}
-                onError={(e) => {
-                  e.target.onerror = null;
-                  e.target.src =
-                    "https://cdn-icons-png.flaticon.com/512/3135/3135715.png";
-                }}
-                className="w-24 h-24 mx-auto rounded-full mb-4 border-4 border-blue-600 object-cover hover:scale-105 transition-transform"
-              />
-              <h3 className="text-xl font-semibold text-blue-700">{member.name}</h3>
-              <p className="text-gray-600">{member.role}</p>
-            </motion.div>
-          ))}
-        </div>
-      </section>
+      //   <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8">
+      //     {team.map((member, index) => (
+      //       <motion.div
+      //         key={index}
+      //         initial={{ opacity: 0, y: 40 }}
+      //         whileInView={{ opacity: 1, y: 0 }}
+      //         viewport={{ once: true, amount: 0.2 }}
+      //         transition={{ duration: 0.6, delay: index * 0.2 }}
+      //         whileHover={{ y: -5, scale: 1.03 }}
+      //         className="bg-white rounded-xl shadow-lg p-6 hover:shadow-2xl transition"
+      //       >
+      //         <img
+      //           src={member.img}
+      //           alt={member.name}
+      //           onError={(e) => {
+      //             e.target.onerror = null;
+      //             e.target.src =
+      //               "https://cdn-icons-png.flaticon.com/512/3135/3135715.png";
+      //           }}
+      //           className="w-24 h-24 mx-auto rounded-full mb-4 border-4 border-blue-600 object-cover hover:scale-105 transition-transform"
+      //         />
+      //         <h3 className="text-xl font-semibold text-blue-700">{member.name}</h3>
+      //         <p className="text-gray-600">{member.role}</p>
+      //       </motion.div>
+      //     ))}
+      //   </div>
+      // </section>
 
       {/* ---------------- FOOTER ---------------- */}
       <footer className="bg-gray-900 text-gray-300 text-center py-6 mt-auto">
