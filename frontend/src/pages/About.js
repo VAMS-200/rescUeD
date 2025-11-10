@@ -8,23 +8,23 @@ function About() {
       name: "Vamsi",
       role: "Project Designer & Database Administrator",
       img: "https://i.ibb.co/7x8nsjcg/Whats-App-Image-2025-11-08-at-16-25-47-bb01d7ab.jpg", 
-    },
-     {
-      name: "Sai Lokesh",
-      role: "Team Lead & Backend Engineer",
-      img: "https://i.ibb.co/v4DZYxh4/Whats-App-Image-2025-11-08-at-17-10-02-4f546514.jpg",
-    },
-    {
-      name: "Krishna Kanth",
-      role: "Frontend Developer & Deployment",
-      img: "https://i.ibb.co/993BpptW/download-1.jpg",
-    },
+    }
+  //    {
+  //     name: "Sai Lokesh",
+  //     role: "Team Lead & Backend Engineer",
+  //     img: "https://i.ibb.co/v4DZYxh4/Whats-App-Image-2025-11-08-at-17-10-02-4f546514.jpg",
+  //   },
+  //   {
+  //     name: "Krishna Kanth",
+  //     role: "Frontend Developer & Deployment",
+  //     img: "https://i.ibb.co/993BpptW/download-1.jpg",
+  //   },
    
-    {
-      name: "Pranathi",
-      role: "Quality Assurance & Documentation",
-      img: "https://i.ibb.co/sJyPKtn2/Whats-App-Image-2025-11-08-at-17-10-32-a0058774.jpg",
-    },
+  //   {
+  //     name: "Pranathi",
+  //     role: "Quality Assurance & Documentation",
+  //     img: "https://i.ibb.co/sJyPKtn2/Whats-App-Image-2025-11-08-at-17-10-32-a0058774.jpg",
+  //   },
   ];
 
   return (
