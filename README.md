@@ -19,7 +19,7 @@ The platform helps users request instant roadside repair services, share live lo
 ✅ Secure registration & login (role-based)  
 ✅ Admin OTP verification for secure access  
 ✅ KYC verification for service men (photo, Aadhaar, license)  
-✅ Location tracking using **Google Maps API**  
+✅ Location tracking using *Leaflet  Maps API**  
 ✅ Real-time request creation and acceptance  
 ✅ Dashboard for each role  
 ✅ Responsive and modern UI with animations  
