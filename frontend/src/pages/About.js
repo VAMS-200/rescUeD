@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Shield, HeartHandshake, Clock, Wrench, Rocket, Handshake, Heart } from "lucide-react";
 
-// function About() {
+function About() {
 //   const team = [
 //     {
 //       name: "Vamsi",
